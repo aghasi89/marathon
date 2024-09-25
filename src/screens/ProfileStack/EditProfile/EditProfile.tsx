@@ -438,7 +438,7 @@ const EditProfileScreen: React.FC = () => {
                     changeLocation(data.place_id);
                   }}
                   query={{
-                    key: 'AIzaSyBsoSy5YuvQDgZ7P-Ds_1IDS8OrPKp4gHY',
+                    key: '',
                     language: 'en',
                   }}
                 />

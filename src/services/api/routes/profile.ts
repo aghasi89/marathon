@@ -78,7 +78,7 @@ class ProfileEP extends RestApi<any> {
   };
   getLocation = async (place_id: string) => {
     try {
-      const res = await googleApi.get(`json?place_id=${place_id}&fields=name,formatted_address&key=AIzaSyBsoSy5YuvQDgZ7P-Ds_1IDS8OrPKp4gHY&language=en`);
+      const res = await googleApi.get(`json?place_id=${place_id}&fields=name,formatted_address&key=&language=en`);
       return res.data.results;
     } catch (ex: any) {
       return ex.response.data
