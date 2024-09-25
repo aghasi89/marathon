@@ -1,0 +1,29 @@
+diff --git a/node_modules/react-native-instagram-like-image-cropper/dist/index.js b/node_modules/react-native-instagram-like-image-cropper/dist/index.js
+index 5dfa8d9..51619e0 100644
+--- a/node_modules/react-native-instagram-like-image-cropper/dist/index.js
++++ b/node_modules/react-native-instagram-like-image-cropper/dist/index.js
+@@ -1,6 +1,6 @@
+ import React, { useEffect } from 'react';
+ import { StyleSheet, View, Dimensions, Image } from 'react-native';
+-import { PanGestureHandler, PinchGestureHandler, } from 'react-native-gesture-handler';
++import { GestureHandlerRootView, PanGestureHandler, PinchGestureHandler, } from 'react-native-gesture-handler';
+ import Animated, { runOnJS, useAnimatedGestureHandler, useAnimatedStyle, useSharedValue, withSpring, withTiming, } from 'react-native-reanimated';
+ import ImageEditor from '@react-native-community/image-editor';
+ const InstagramLikeImageCropper = (props) => {
+@@ -150,6 +150,7 @@ const InstagramLikeImageCropper = (props) => {
+         };
+     });
+     return (React.createElement(View, { style: [styles.container, { width, height }] },
++        React.createElement(GestureHandlerRootView,{style:[{flex:1}]},
+         React.createElement(PinchGestureHandler, { minPointers: 2, onGestureEvent: pinchGestureHandler },
+             React.createElement(Animated.View, { style: [{ width, height }, pinchStyle] },
+                 React.createElement(Animated.View, { style: [{ width, height }] },
+@@ -179,7 +180,7 @@ const InstagramLikeImageCropper = (props) => {
+                             backgroundColor: gridColor,
+                             left: (width / (gridHorizontalNum + 1)) * (i + 1),
+                         },
+-                    ] })))))));
++                    ] }))))))));
+ };
+ InstagramLikeImageCropper.defaultProps = {
+     width: Dimensions.get('window').width,

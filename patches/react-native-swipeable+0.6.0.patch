@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-swipeable/lib/index.js b/node_modules/react-native-swipeable/lib/index.js
+index 57996ad..57c8633 100644
+--- a/node_modules/react-native-swipeable/lib/index.js
++++ b/node_modules/react-native-swipeable/lib/index.js
+@@ -78,7 +78,8 @@ var Swipeable = function (_PureComponent) {
+     }, _this._unmounted = false, _this._handlePan = _reactNative.Animated.event([null, {
+       dx: _this.state.pan.x,
+       dy: _this.state.pan.y
+-    }]), _this._handleMoveShouldSetPanResponder = function (event, gestureState) {
++    }],{useNativeDriver: false}
++  ), _this._handleMoveShouldSetPanResponder = function (event, gestureState) {
+       return Math.abs(gestureState.dx) > _this.props.swipeStartMinDistance;
+     }, _this._handlePanResponderStart = function (event, gestureState) {
+       var _this$state = _this.state,

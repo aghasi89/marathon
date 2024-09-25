@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>845710147677-6ft6rqtk4pv39k3s1sh4l7hn3suomoqu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.845710147677-6ft6rqtk4pv39k3s1sh4l7hn3suomoqu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqWhvOmmYZqHJnKOa0Y6DrYIbZKNVBLIY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>845710147677</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>me.marathon.app</string>
+	<key>PROJECT_ID</key>
+	<string>marathon20-f4227</string>
+	<key>STORAGE_BUCKET</key>
+	<string>marathon20-f4227.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:845710147677:ios:eb3181270a7c3c5e604db4</string>
+</dict>
+</plist>

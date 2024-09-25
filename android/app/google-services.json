@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "845710147677",
+    "project_id": "marathon20-f4227",
+    "storage_bucket": "marathon20-f4227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845710147677:android:63b34e597d2377e0604db4",
+        "android_client_info": {
+          "package_name": "me.marathon.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845710147677-6k0bhbjn375nvklrh8q8bpukdgv81i6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.marathon.app",
+            "certificate_hash": "11a6ba44562598ccf83403978be952cfd57aedc1"
+          }
+        },
+        {
+          "client_id": "845710147677-dd63up4l31incv405eu0gn4jkjskemlp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.marathon.app",
+            "certificate_hash": "0cce5e754ffda4a0c55dd00e0b331e3ccc853421"
+          }
+        },
+        {
+          "client_id": "845710147677-j6u7ssjnj31e8mjclim5s37pqtr5oie8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.marathon.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "845710147677-mmerpbpij24n3navc3025aglr4153n1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.marathon.app",
+            "certificate_hash": "4fd86b24fc6b33dccf5b4c303a585c89a094ae68"
+          }
+        },
+        {
+          "client_id": "845710147677-u8ea07qs21gc26drenjk5026j32bomn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwl9LrNsZrV4BCI-wJ85aiXGlZmE_ddhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845710147677-3l8rqc1fev3bnqpq9p7napkcou8pds6k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845710147677-6ft6rqtk4pv39k3s1sh4l7hn3suomoqu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "me.marathon.app",
+                "app_store_id": "1607039412"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
